@@ -13,7 +13,8 @@ import java.util.Set;
 @FieldDefaults( level = AccessLevel.PRIVATE)
 @Entity
 public class Equipe implements Serializable  {
-    @Id
+ String hello = "hello";
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer idEquipe ;
     String nomEquipe ;
