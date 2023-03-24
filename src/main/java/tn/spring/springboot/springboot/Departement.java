@@ -14,7 +14,8 @@ import java.util.Set;
 
 @Entity
 public class Departement implements Serializable {
-@Id
+String hi;
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
      Integer idDepart ;
      String nomDepart  ;
